@@ -27,7 +27,7 @@ function List({ items, removet }) {
                         {d1}
                         <span className="dots" id={`dots${id}`}>...</span>
                         <span className="text2" id={`text2${id}`} style={{ display: "none" }}>{d2} </span>
-                        <a className="readmore" id={`readmore${id}`} style={{ display: "inline-block" }} onClick={() => { showmore(id) }}>Read More</a>
+                        <p className="readmore" id={`readmore${id}`} style={{ display: "inline-block" }} onClick={() => { showmore(id) }}>Read More</p>
                     </p>
                     <button className="notinterested" onClick={() => removet(id)}>Not Interested</button>
                 </div>
